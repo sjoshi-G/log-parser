@@ -1,0 +1,14 @@
+# Sample auth.log (synthetic — safe to publish)
+
+Fake log lines for testing `log_parser.py`. No real IPs, users, or systems.
+`203.0.113.0/24` is the TEST-NET-3 documentation range (RFC 5737).
+
+Oct 14 10:01:02 soclab sshd[101]: Failed password for root from 203.0.113.10 port 22 ssh2
+Oct 14 10:01:31 soclab sshd[102]: Failed password for root from 203.0.113.10 port 22 ssh2
+Oct 14 10:02:05 soclab sshd[103]: Failed password for admin from 203.0.113.10 port 22 ssh2
+Oct 14 10:02:40 soclab sshd[104]: Failed password for invalid user test from 203.0.113.10 port 22 ssh2
+Oct 14 10:03:12 soclab sshd[105]: Failed password for root from 203.0.113.10 port 22 ssh2
+Oct 14 10:03:55 soclab sshd[106]: Failed password for ubuntu from 203.0.113.10 port 22 ssh2
+Oct 14 10:04:20 soclab sshd[107]: Accepted password for shiwani from 198.51.100.7 port 22 ssh2
+Oct 14 10:09:00 soclab sshd[108]: Failed password for root from 192.0.2.55 port 22 ssh2
+Oct 14 10:30:00 soclab sshd[109]: Failed password for root from 192.0.2.55 port 22 ssh2
